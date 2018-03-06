@@ -45,7 +45,8 @@ JsProcessor.prototype.sourceFor = function (file) {
 };
 
 JsProcessor.prototype.parse = function (source) {
-  return (0, _babylon.parse)(source, { plugins: ["jsx", "classProperties", "objectRestSpread"], sourceType: "module" });
+  var result = (0, _babylon.parse)(source, { plugins: ["decorators", "jsx", "classProperties", "objectRestSpread"], sourceType: "module" });
+  return result;
 };
 
 JsProcessor.prototype.preProcess = function (source) {
