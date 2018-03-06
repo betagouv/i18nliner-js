@@ -34,8 +34,8 @@
     "test": "./node_modules/.bin/grunt test && mocha tmp/test --recursive"
   },
   "dependencies": {
-    "babel-traverse": "^6.0.0",
-    "babylon": "^6.0.0",
+    "babel-traverse": "^7.0.0",
+    "babylon": "^7.0.0",
     "cli-color": "~1.2.0",
     "crc32": "~0.2.2",
     "gglobby": "0.0.3",
